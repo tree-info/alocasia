@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> झाडाची माहिती</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ===== COMMON ===== */
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Noto Sans Devanagari", sans-serif;
+      color: #1b5e20;
+      line-height: 1.75;
+      background: #ffffff;
+    }
+
+    /* ===== HEADER (SAME) ===== */
+    header {
+      background: linear-gradient(to right, #0d0d0d, #b30000);
+      color: #fff;
+      padding: 28px 40px;
+    }
+
+    .header-container {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .logo { text-align: center; }
+    .logo img { height: 120px; }
+
+    .udise {
+      margin-top: 6px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    .header-text { text-align: center; }
+
+    .header-text h1 {
+      font-size: 36px;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    .header-text h2 {
+      font-size: 24px;
+      margin: 8px 0;
+      font-weight: 600;
+    }
+
+    .email {
+      font-size: 16px;
+      text-align: right;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .header-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      .email { text-align: center; }
+      .logo img { height: 95px; margin: auto; }
+    }
+
+    /* ===== BACKGROUND ===== */
+    .main-wrapper {
+      background:
+        linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)),
+        url("bg1.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 35px 22px;
+    }
+
+    /* ===== TREE CONTENT ===== */
+    .tree-title {
+      text-align: center;
+      margin-bottom: 45px;
+    }
+
+    .tree-title h1 { font-size: 46px; }
+
+    .tree-title p {
+      font-size: 18px;
+      color: #33691e;
+    }
+
+    .tree-image {
+      width: 360px;
+      height: 300px;
+      margin: 28px auto;
+      border-radius: 20px;
+      background: linear-gradient(145deg, #e8f5e9, #c8e6c9);
+      overflow: hidden;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    }
+
+    .tree-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    section {
+      background: linear-gradient(to bottom right, #ffffff, #f1fff3);
+      padding: 32px;
+      margin-bottom: 38px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    }
+
+    section h2 {
+      border-bottom: 3px solid #81c784;
+      padding-bottom: 12px;
+      margin-bottom: 18px;
+      font-size: 28px;
+    }
+
+    section p { text-align: justify; }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: linear-gradient(to bottom right, #ffffff, #e8f5e9);
+      padding: 22px;
+      border-radius: 14px;
+      border-left: 6px solid #2e7d32;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    }
+
+    .circular-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .circular-card {
+      width: 260px;
+      height: 260px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #e8f5e9, #a5d6a7);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 28px;
+      border: 6px solid #2e7d32;
+    }
+
+    /* ===== FOOTER (SAME) ===== */
+    footer {
+      text-align: center;
+      padding: 22px;
+      background: linear-gradient(to right, #2e7d32, #66bb6a);
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ===== HEADER (UNCHANGED) ===== -->
+<header>
+  <div class="header-container">
+    <div class="logo">
+      <img src="pm logo.png" alt="PM SHRI Logo">
+      <div class="udise">UDISE : 27150107301</div>
+    </div>
+
+    <div class="header-text">
+      <h1>पीएम श्री जिल्हा परिषद हायस्कूल, विष्णुपूरी नांदेड</h1>
+    </div>
+
+    <div class="email">
+      E-mail ID<br>
+      <strong>zphsvishnupuri@gmail.com</strong>
+    </div>
+  </div>
+</header>
+
+
+<div class="main-wrapper">
+<main>
+
+  <div class="tree-title">
+    <h1>🌿 अलोकेशिया</h1>
+    <p>
+      English Name : Alocasia<br>
+      <i>Scientific Name : Alocasia</i>
+    </p>
+
+    <div class="tree-image">
+      <img src="alocasia.jpg" alt=अलोकेशिया>
+    </div>
+  </div>
+
+<section>
+  <h2>संक्षिप्त परिचय</h2>
+  <p>
+    अलोकेशिया ही एक आकर्षक व मोठ्या पानांची शोभेची वनस्पती आहे.
+    या वनस्पतीला इंग्रजीत Alocasia किंवा Elephant Ear Plant असे म्हणतात.
+    अलोकेशिया हा प्रत्यक्षात वनस्पतींचा एक genus असून त्यात अनेक प्रजातींचा समावेश होतो.
+    या वनस्पतीचे मोठे, रुंद आणि हृदयाच्या आकाराचे पाने तिची मुख्य ओळख आहेत.
+    पानांचा आकार हत्तीच्या कानासारखा दिसत असल्यामुळे तिला हत्ती-कानाची वनस्पती असेही म्हणतात.
+    अलोकेशियाचा उगम आग्नेय आशिया आणि उष्ण कटिबंधीय प्रदेशांमध्ये झाला आहे.
+    भारतामध्ये ही वनस्पती बागा, कुंड्या व घरातील सजावटीसाठी मोठ्या प्रमाणावर लावली जाते.
+    ही वनस्पती प्रामुख्याने शोभेच्या उद्देशाने वापरली जाते.
+    दमट व उष्ण हवामानात अलोकेशिया चांगली वाढते.
+    मोठी व चमकदार पाने असल्यामुळे ही वनस्पती घर आणि उद्यानांचे सौंदर्य वाढवते.
+  </p>
+</section>
+
+<section>
+  <h2>वनस्पतीशास्त्रीय माहिती</h2>
+  <div class="card-container">
+    <div class="card">
+      <h3>🌿 कुल</h3>
+      <p>Araceae (अ‍ॅरेसी कुल)</p>
+    </div>
+    <div class="card">
+      <h3>🌱 रचना</h3>
+      <p>
+        मोठी, मऊ खोडासारखी देठ रचना;
+        जमिनीत कंद (rhizome) व मोठी हृदयाकृती पाने
+      </p>
+    </div>
+    <div class="card">
+      <h3>🌼 फुले</h3>
+      <p>
+        लहान व साधी फुले;
+        स्पॅडिक्स (spadix) व स्पॅथ (spathe) स्वरूपात
+      </p>
+    </div>
+    <div class="card">
+      <h3>🌍 अधिवास</h3>
+      <p>
+        उष्ण व दमट प्रदेश;
+        जंगलातील सावलीची ठिकाणे, बागा व घरातील कुंड्या
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>सामाजिक व सांस्कृतिक महत्त्व</h2>
+  <p>
+    अलोकेशिया ही वनस्पती मुख्यतः शोभेच्या उपयोगासाठी ओळखली जाते.
+    घरातील सजावट, बागा आणि उद्यानांमध्ये ती लोकप्रिय आहे.
+    काही आशियाई संस्कृतींमध्ये मोठ्या पानांच्या वनस्पती समृद्धीचे प्रतीक मानल्या जातात.
+    पर्यावरणाच्या दृष्टीने ही वनस्पती घरातील हवा आर्द्र ठेवण्यास मदत करते.
+  </p>
+</section>
+
+<section>
+  <h2>काळजी व धोके</h2>
+  <div class="circular-container">
+    <div class="circular-card">
+      <p>
+        झाडाला अप्रत्यक्ष सूर्यप्रकाश, दमट वातावरण व नियमित पण मर्यादित पाणी द्यावे
+      </p>
+    </div>
+    <div class="circular-card">
+      <p>
+        अलोकेशिया वनस्पती विषारी असू शकते;
+        पाने खाण्यायोग्य नाहीत व मुलांपासून व पाळीव प्राण्यांपासून दूर ठेवावी
+      </p>
+    </div>
+  </div>
+</section>
+
+</main>
+</div>
+
+
+
+<!-- ===== FOOTER (UNCHANGED) ===== -->
+<footer>
+  © 2025–26 | झाडांची माहिती | PM SHRI ZP High School, Vishnupuri, Nanded
+</footer>
+
+</body>
+</html>
